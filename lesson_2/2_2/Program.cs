@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// задание 2. Написать программу, которая принимает на вход 3-х значное число
+// и возводит вторую цифру этого числа в степень,
+// равную третьей цифре этого числа.
+
+Console.Write("Введите трехзначное число: ");
+int a = int.Parse(Console.ReadLine()!);
+int n2 = a /10 % 10;
+int n3 = a % 10;
+Console.WriteLine(Math.Pow(n2,n3));
