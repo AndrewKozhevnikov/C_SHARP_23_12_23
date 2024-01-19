@@ -37,5 +37,3 @@ int[] mass = MassNums(num, start, stop);
 Print(mass);
 int[] arr_new = PairsNum(mass);
 Print(arr_new);
-
-int[] array = {1, 3, 2, 4, 2, 3 };
