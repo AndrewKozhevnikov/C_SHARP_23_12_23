@@ -10,9 +10,8 @@ char[] StrToCharArr(string str)
     return arr;
 }
 
-string str1 = Console.ReadLine();
+string str1 = Console.ReadLine()!;
 char[] arr1 = StrToCharArr(str1);
-Console.WriteLine(arr1);
 foreach (var item in arr1)
 {
     Console.Write(item + ", ");
